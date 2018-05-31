@@ -1,0 +1,24 @@
+{
+  "name": "customerbase-graphql",
+  "version": "1.0.0",
+  "description": "Simple GraphQL server Application",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reeversedev/customerbase-GraphQL.git"
+  },
+  "author": "Prateek Gogia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reeversedev/customerbase-GraphQL/issues"
+  },
+  "homepage": "https://github.com/reeversedev/customerbase-GraphQL#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2"
+  }
+}
